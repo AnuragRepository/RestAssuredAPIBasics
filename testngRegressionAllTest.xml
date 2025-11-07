@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="Regression-All-Tests">
+        <classes>
+            <class name="BasicPlaceAndLibraryAPI.StandAloneAddBookTest"/>
+            <class name="BasicPlaceAndLibraryAPI.StandAloneAddPlaceTest"/>
+            <class name="eCommerceE2E.EcommerceE2EFlowTest"/>
+            <class name="JiraFlowAndBasicAuthorization.JiraBasicAuthTest"/>
+            <class name="SampleJsonExtract.JsonExtractTest"/>
+            <class name="OAuth2Authorization.OAuth2ViaJsonPathTest"/>
+            <class name="OAuth2Authorization.OAuth2ViaPojoDeserializationTest"/>
+            <class name="OAuth2Authorization.OAuth2GrantTypeAuthorizationCodeTest"/>
+            <class name="SSLHTTPCertificateByPass.RelaxedHTTPSValidationTest"/>
+            <class name="SpecBuilder.ReqResSpecBuilderTest"/>
+            <class name="SerializationDeserialization.AddPlaceSeriallizationDeserializationTest"/>
+            <class name="SerializationDeserialization.AddPlaceViaPojoSerializationTest"/>
+            <class name="GraphQL.GraphQLTest"/>
+            <class name="ExcelData.CSVTest"/>
+            <class name="ExcelData.ExcelAPITest"/>
+            <class name="ExcelData.ExcelTest"/>
+            <class name="ExcelData.HashMapExcelTest"/>
+        </classes>
+
+    </test>
+</suite>

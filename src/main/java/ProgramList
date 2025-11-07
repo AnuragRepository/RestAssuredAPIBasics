@@ -1,0 +1,43 @@
+1. Add place , validate scope in body, response header server, store response, fetch place id from response
+2. Update address via PUT HTTP method and validate via GET HTTP method
+3. Add place, update address in added place, get the place id and validate updated address
+4. Mock response/dummy response
+5. Parsing complex json (json online editor), sample programs:-
+a. Print No of courses returned by API
+b. Print Purchase Amount
+c. Print Title of the first course
+d. Print All course titles and their respective Prices
+e. Print no of copies sold by RPA Course
+f. Verify if Sum of all Course prices matches with Purchase Amount
+6. Dynamically build json payload with input data in test
+7. Dynamically build json payload with multiple input data in test, DataProvider, Parameterization
+8. Read Payloads.Payload from external files (json content -> bytes-> string for passing in body)
+9. Create Issue in Jira and attach attachment, also get issue details and verify added attachment
+10.Connect to authorization server via client credentials grant type, get access token and connect other API
+11. Fetch data from Json response from Java object (deserialization)
+a. Find the value of all items
+b. Find specific course title
+c. Find price of specific Course with tile Soap UI WebServiceTesting
+d. Print all course title of web automation array and validate
+e.Find all Course Price under mobile List
+f.verify if course title -'Appium-Mobile Automation using Java' present in entire response
+g.Print sum of web automation list course
+h.Print sum of  API list course
+i.Print sum of mobile list course
+j.Print total course price in entire response
+k. Find total no. of course present in entire response
+12.Create a test with serialization and Deserialization
+13.Create a test with request and response Spec Builder
+14. Connect API by bypassing any HTTP/SSL certification- relaxedHTTSValidation()
+14.Create a test with E2E flow
+a.Login
+b.Create Product
+c.Create  Order
+d.View Order Details
+e.Delete Product
+f.Delete Order from Order History
+
+
+
+
+
