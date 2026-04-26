@@ -36,7 +36,7 @@ public class ExcelAPITest {
         jsonMapObj.put("author",columnValueList.get(3));
 
         RestAssured.baseURI = "http://216.10.245.166";
-       String addPlaceResponse = given().log().all()
+        String addPlaceResponse = given().log().all()
                 .header("Content-Type","application/json")
                 .body(jsonMapObj)
                 .when().post("/Library/Addbook.php")
